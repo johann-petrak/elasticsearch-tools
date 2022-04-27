@@ -2,7 +2,7 @@ conda create -n es_tools python=3.9
 conda activate es_tools
 
 pip install elasticsearch7[async]
-pip install elasitcsearch7-dsl
+pip install elasticsearch7-dsl
 
 pip install flask
 pip install gunicorn
