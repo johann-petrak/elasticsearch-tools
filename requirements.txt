@@ -1,0 +1,7 @@
+elasticsearch8[async]
+elasticsearch8-dsl
+
+flask
+gunicorn
+
+
