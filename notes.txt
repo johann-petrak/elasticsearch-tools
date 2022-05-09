@@ -1,3 +1,25 @@
 # Misc notes
 
 * For local HTTP server use flask, deploy with gunicorn (for async, if necessary, hypercorn)
+* querystring query: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html
+
+* Query DSL
+  * https://user3141592.medium.com/understanding-the-elasticsearch-query-dsl-ce1d67f1aa5b
+  * select fields to return https://www.elastic.co/guide/en/elasticsearch/client/net-api/current/returned-fields.html
+
+Highlighting:
+* https://stackoverflow.com/questions/15230580/elasticsearch-highlight-with-nested-objects
+* https://stackoverflow.com/questions/28243657/how-to-highlight-nested-fields-in-elasticsearch
+
+* Kibana with ES:
+  * KQL https://www.elastic.co/guide/en/kibana/current/kuery-query.html
+  * https://discuss.elastic.co/t/kql-in-es-query/227407
+  * https://stackoverflow.com/questions/60077000/kibana-query-language-to-java-elasticsearch-query
+  * https://stackoverflow.com/questions/39224736/any-wayplugin-to-parse-kibana-query-syntax-to-elasticsearch-api-body
+  * https://xeraa.net/blog/2021_kibana-map-kql-url-elasticsearch-query/
+
+Python client:
+* https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/connecting.html
+
+Flaskstuff:
+* https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xvi-full-text-search
