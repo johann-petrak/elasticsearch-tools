@@ -1,0 +1,3 @@
+# Misc notes
+
+* For local HTTP server use flask, deploy with gunicorn (for async, if necessary, hypercorn)

@@ -2,6 +2,9 @@
 Module with search-related utility functions and classes
 """
 
+# !!! NEED to dynamically select ES library version depending on ES server
+# !!! For opensearch, need to select OS Python packages opensearch-py and
+#     opensearch-dsl-py
 # ES String query https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html
 
 # es = Elasticsearch(esurl)
